@@ -45,7 +45,7 @@ click CART Button
 
 click ADD TO CART Button
     Sleep  5s
-    Click Element  //*[/html/body/section/div/div/div[2]/div[2]/div[2]/div/span/button]
+    Click Element  xpath=/html/body/section/div/div/div[2]/div[2]/div[2]/div/span/button
 
 click SIGNUP / LOGIN Button
     Click Link  xpath=//[@href="/login"]
@@ -54,7 +54,7 @@ click CONTINUE SHOPPING Button
     Click Element  //*[@id="cartModal"]/div/div/div[3]/button
     
 click VIEW PRODUCT Button
-    Click Element  //*[/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a]
+    Click Element  xpath=/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a]
 *** Test Cases ***
 
 Search Products and Verify Cart After Login
